@@ -5,7 +5,7 @@ This is a modified version of https://hub.docker.com/r/swaggerapi/swagger-codege
 ### Versions
 
 - `passeum/swagger-codegen-cli-ci:alpine` is based on the original `swaggerapi/swagger-codegen-cli`
-- `passeum/swagger-codegen-cli-ci:latest` and `passeum/swagger-codegen-cli-ci:debian` is inherits `swagger-codegen-cli.jar` but base image is `debian:slim` with BASH etc.
+- `passeum/swagger-codegen-cli-ci:latest` and `passeum/swagger-codegen-cli-ci:debian` inherits `swagger-codegen-cli.jar` but base image is `debian:slim` with BASH etc.
 
 ### Example `.gitlab-ci.yml`
 
